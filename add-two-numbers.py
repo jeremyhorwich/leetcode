@@ -50,6 +50,7 @@ def add_two_numbers(l1: LinkedList, l2: LinkedList) -> LinkedList:
         
     return final_total
 
+
 if __name__ == "__main__":
     test_nums = [([2,4,3],[5,6,4]),([0],[0]),
                  ([9,9,9,9,9,9,9],[9,9,9,9])]
