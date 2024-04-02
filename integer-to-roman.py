@@ -20,7 +20,6 @@ def integer_to_roman(num: int) -> str:
     return roman
 
 def digit_to_roman(digit: int, t_mark: str, f_mark: str, o_mark: str) -> str:
-    roman = ""
     if digit > 5:
         if digit == 9:
             return o_mark + t_mark
