@@ -10,7 +10,6 @@ def merge_k_lists(lists: list[list[int]]) -> list[int]:
     indices = [0]*k
     merged = list()
     while True:
-        list_updated = False
         current_min = ABOVE_HIGHEST_INTEGER_IN_INPUT
         current_min_list = None
         for list_to_check, index_value in enumerate(indices):
